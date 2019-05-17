@@ -1,0 +1,15 @@
+200IQ advice: keep ACTIVE part on current page (mind blowing!) 
+
+
+500IQ advice: Edit top navigation bar, then copy the edited one on bottom navigation bar. WeSmart
+
+
+
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a class="active" href="order.html">ORDER</a></li>
+  <li><a href="menu.html">MENU</a></li>
+  <li><a href="gallery.html">GALLERY</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<title>GALLERY</title>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  background-image: url("landscape.jpg");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center; /* Center the image */
+  height:250px;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header' 
+ 
+  'navigation navigation navigation navigation navigation navigation'
+  'user user user user user user' 
+  'left middle middle middle middle right' 
+
+  'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+
+
+/* Style the header */
+.header {
+    text-align: center;
+}
+
+
+/* Style the navigation */
+.navigation {
+    text-align: center;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+    'header header header header header header' 
+
+    'navigation navigation navigation navigation navigation navigation'
+  'user user user user user user' 
+    'left left left left left left' 
+    'middle middle middle middle middle middle' 
+    'right right right right right right' 
+
+    'footer footer footer footer footer footer';
+}
+</style>
+</head>
+<body>
+
+<p> <center> <strong> Madonn' restaurant , 123 Giggity Goo St, 254-123-4567 <strong> </center> </p>
+
+
+<div class="grid-container">
+  <div class="header">
+    <h2 style="font-size:7vw"><font color="#00F7CF"> Madonn' </font> </h2>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<div class="navigation">
+<head>
+<style>
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+
+
+<body>
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="order.html">ORDER</a></li>
+  <li><a href="menu.html">MENU</a></li>
+  <li><a class="active" href="gallery.html">GALLERY</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+</body>
+
+
+</div>
+
+
+
+
+<div class="user">
+    <p> EXISTING USER <a href="maddon.com/login">LOG-IN </a> </p>
+</div>
+<p> <-- </p>
+<hr>
+<p> --> </p>
+<div class="user">
+    <p> NEW USER <a href="maddon.com/signup">SIGN-UP</a> </p>
+</div>
+
+
+
+
+
+
+
+<div class="left" style="background-color:#67A900;">
+<h1> <center>Food </center></h1>
+<a href="madonn.com/food"> <center><img src="food.jpg" width="405" height="405"></center> </a> 
+</div> 
+
+
+
+<div class="middle" style="background-color:#FFFFFF;">
+<h1> <center>Events </center></h1>
+<a href="madonn.com/events"> <center><img src="events.jpg" width="405" height="405"></center> </a> 
+
+</div>  
+
+
+
+<div class="right" style="background-color:#FF3333;">
+<h1> <center>About Us </center></h1>
+<a href="madonn.com/aboutus"> <center><img src="about us.jpeg" width="405" height="405"></center> </a> 
+</div>
+
+
+
+
+
+
+
+
+<div class="footer">
+
+<body>
+
+<ul>
+  <li><a >Connect with us on social media</a></li>
+  <li><a href="#news">Facebook</a></li>
+  <li><a href="#contact">Twitter</a></li>
+  <li><a href="#about">Instagram</a></li>
+
+  <li><a >Leave a review for us</a></li>
+  <li><a href="https://www.tripadvisor.com/Restaurant_Review-g41762-d3847860-Reviews-Gallo_Nero_Pizzeria-Peabody_Massachusetts.html">TripAdvisor</a></li>
+  <li><a href="https://www.yelp.com/biz/gallo-nero-peabody-2">Yelp</a></li>
+  <li><a href="#about">Google</a></li>
+
+
+</ul>
+
+</body>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+
+<body>
+
+
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="order.html">ORDER</a></li>
+  <li><a href="menu.html">MENU</a></li>
+  <li><a class="active" href="gallery.html">GALLERY</a></li>
+  <li><a href="contactus.html">CONTACT US</a></li>
+</ul>
+
+</body>
+  </div>
+
+</div>
+
+
+<div class="footer">
+    <p>Your data is protected by CloudFlare. &#0169 Madonn' 2018</p>
+  </div>
+
+</div>
+
+</body>
+</html>

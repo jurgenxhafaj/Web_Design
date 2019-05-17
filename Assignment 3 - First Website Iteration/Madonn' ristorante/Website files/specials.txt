@@ -1,0 +1,11 @@
+specialM 	Farfalle con Prosciutto Cotto e Piselli 
+
+specialT	Polpette di Salmone 
+
+specialW	Moscardini in Umido
+
+specialH	Insalata di Mare
+
+specialF	Carpaccio di manzo con rucola e grana
+
+specialSS	Gnocchi Bufalina
